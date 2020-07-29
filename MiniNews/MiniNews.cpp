@@ -16,8 +16,8 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPTSTR lpCmdL
 	return (int) msg.wParam;
 }
 BOOL InitNews(){
-	LPCTSTR lpNewsTitle		= _T("下载进行中!");
-	LPCTSTR lpNewsContent	= _T("   您的文件正在下载中,请等待下载完成,不要关闭MX-Codingland客户端.\n\n    (点击弹窗内任何区域将闭本弹窗.)\n\n       Powered By MX-Codingland.\n       由MX-Codingland'强力驱动'");
+	LPCTSTR lpNewsTitle		= _T("下载已完成!");
+	LPCTSTR lpNewsContent	= _T("   恭喜!文件下载完成了!您可以关闭客户端而'毫bit无伤'(仿'吞下玻璃...').\n\n  (点击弹窗内任何区域就可以闭关本弹窗)\n\n       Powered By MX-Codingland.\n       由MX-Codingland'强力驱动'");
 	LPCTSTR lpNewsURL		= _T("https://www.baidu.com");
 	NewsWindow.SetSkin(MAKEINTRESOURCE(IDB_SKIN_QQ));
 	//NewsWindow.SetSkin(MAKEINTRESOURCE(IDB_SKIN_WANGWANG));
